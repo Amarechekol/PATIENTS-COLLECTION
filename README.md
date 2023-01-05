@@ -2,7 +2,7 @@ This project loads patient data from a flat file into a MongoDB collection, and 
 
 Prerequisites
 
-Node.js
+Node.js,
 MongoDB
 
 Setup
@@ -13,11 +13,11 @@ npm install
 Start the MongoDB server:
 mongod
 
-Run the projec
-node index.js
+Run the project
+node demo.js
 
 Testing
+ npm insall mocha
 To run the tests, use the following command:
 npm test
-
 The node-schedule package is used to schedule the emails.
