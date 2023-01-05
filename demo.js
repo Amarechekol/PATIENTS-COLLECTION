@@ -3,7 +3,7 @@ const assert = require('assert');
 const nodeSchedule = require('node-schedule');
 
 const url = 'mongodb://localhost:27017';
-const dbName = 'myproject';
+const dbName = 'Patient collection';
 
 // Use connect method to connect to the server
 MongoClient.connect(url, function(err, client) {
